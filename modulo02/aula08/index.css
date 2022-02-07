@@ -1,0 +1,36 @@
+@charset "utf-8";
+body{
+    background-image: linear-gradient(to right, rgb(0, 105, 105), rgb(0, 0, 94));
+    color: black;
+    font: atalic normal 1em 'arial , sans-serif'; 
+}
+/*
+    id in html - especifico = # - ;
+    class in html - generico(aplicação multipla) = . ;
+*/
+h1{
+    color: rgb(0, 0, 180);
+}
+#principal{
+    color: rgb(255, 0, 0);
+    background-image: linear-gradient(to bottom, rgb(0, 0, 92), rgb(167, 167, 255));
+    
+}
+h2{
+    color: rgb(136, 255, 255);
+}
+.basico{
+    background-image: linear-gradient(to bottom, rgb(23, 180, 201), rgb(167, 167, 255));
+    color: rgb(150, 0, 0);
+}
+.intermediario{
+    background-image: linear-gradient(to top, rgb(23, 180, 201), rgb(167, 167, 255));
+    color:  rgb(200, 0, 0);
+}
+.avancado{
+    background-image: linear-gradient(to bottom, rgb(23, 180, 201), rgb(167, 167, 255));
+    color:  rgb(250, 0, 0);
+}
+p{
+    color: rgb(0, 0, 0);
+}

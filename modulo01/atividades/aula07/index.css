@@ -1,0 +1,15 @@
+body{
+    background-color: aquamarine;
+    color: black;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+ol{
+    align-items: center;
+    box-shadow: 3px 3px 5px blue;
+    width: 500px;
+    margin: auto;
+    padding: 1px;
+    
+}

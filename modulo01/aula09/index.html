@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> videos com html5 </title>
+</head>
+<body>
+        <h1> inserindo videos ospedados locakmente </h1>
+        <p>
+            este video esta hospedadp no meu servidor 
+        </p>
+
+        <video controls poster="imgs/img-eu.png" width="560px" loop autoplay> <!-- poster, delimita a capa do video-->
+            <source src="midia/meu-video.mp4" type="video/mp4">
+            <source src="midia/meu-video.mp4" type="video/mp4"> <!-- sources para cada video, caso o video de cima seja incompativel com o browser-->
+            <p>
+                infelizmente vosso navegador se mostra ncompativel com o formato do video ={<br>
+                    <a href="midia/meu-video.mp4"> clique aqui </a> para obter o arquivo
+            </p>
+        </video>
+
+        <h1> inserindo video do youtube</h1>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/LqaDmOLRhME" 
+        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
+        clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+        </iframe>
+
+
+    
+</body>
+</html>

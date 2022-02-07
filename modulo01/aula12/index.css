@@ -1,0 +1,16 @@
+body{
+    background-color: aquamarine;
+    font-family: arial;
+    font-size: 20px;
+}
+h1{
+    color: black;
+}
+h2{
+    color:red;
+    background-color: blue;
+}
+p{
+    text-align: justify;
+    
+}

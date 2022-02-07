@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> midias htm5</title>
+</head>
+<body>
+
+    <!--
+         picture, reponssividade de imagem, definindo qual img vai brota no site depedendo da tamanha
+         dA tela, redigida pelo browser
+
+         <picture>
+             <source media="(max-wisth: valor em px )" -> a img vai brota quando eceder o tamnha redigido em px
+             srcset="caminha img " -> imagem que vai toma o lugar da img original apos eceder o tamnha redigido
+             type="image/ extensão da imagem" 
+
+             <img src=" caminho " alt= " titulo img "> ->imagem que ficara de principio no site  
+         </picture>
+    -->
+    
+    <h1> imagem reponsiva </h1>
+    <p>
+        experiemnte abrir esse site em dispositivos distintos =},<br>
+        ou tente mudar a tamanho do vosso navegador =}
+    </p>
+
+    <picture>
+
+        <source media="(max-width: 750px )" srcset="imgs/img-p.png" 
+        type="image/png" >
+
+        <source media="(max-width: 1050px)" srcset="imgs/img-m.png" 
+        type="image/png">
+
+        <img src="imgs/img-g.png" alt="imagem flexivel">
+    </picture>
+
+    <h1> reprodução de audio </h1>
+    <p>
+        aplicação de audio em nosso site =}
+    </p>
+    <!--
+    primeiro formato de audio, porem limitado por conta do compatibilidade com o browser
+
+    <audio src="midia/audio-holow.mp3" controls autoplay></audio>
+
+     formatos compativeis para audio: MP3, WAV, OGG-->
+
+     <audio preload="metadata" autoplay controls>
+         <source src="midia/audio-holow.mp3" type="audio/mpeg"> <!-- media type do audio = mpeg, ira divergi de acordo com o tipo de audio
+        como exemplo:
+        <source src="midia/audio-holow.Wav" type="audio/WAV">
+        <source src="midia/audio-holow.OGG" type="audio/OGG">
+        -->
+        <p> infelizmente vossa navegador não consegue reproduzir a midia </p> <!-- caso o browser tenha incompatibilidade com todas as extenções-->
+        <a href="midia/audio-holow.mp3"> clique aqui </a>para obter o arquivo =} 
+     </audio>
+
+</body>
+</html>

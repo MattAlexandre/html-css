@@ -1,0 +1,11 @@
+body{
+    background-color: white;
+    color: black;
+}
+.img01{
+    margin: auto;
+}
+.img02{
+    height: 10px;
+    width: 50px;
+}

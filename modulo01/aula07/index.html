@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title> Links e Ancoração </title>
+</head>
+<body>
+    <h1> links </h1>
+
+    <h2> usando links externos </h2> <!-- ligação com um site fora de pagina -->
+        <p>
+            Voce pode acessar meu 
+            <a href="htttps://gustavoguanabara.github.io/" target="_blank" rel="external"> <!-- target _BLank = janela em branco , rel External = externo / em geral abre uma nova aba para o site do link-->
+                repositorio publico no gitHub</a> <!-- <A> link externo -->
+        </p>
+        <p>
+            Você Tambem pode acessar o meu 
+            <a href="htttps://youtube.com/cursoemvideo/" target="_blank" rel="external"> Canal no youtoba </a>
+        </p>
+
+    <h2> usando links internos </h2> <!-- ligação com uma pagina dentro do nosso servidor / da nossa propria pagina -->
+        <p>
+             esta é a primira pagina do site, vossa beldade pode acessar
+             a <a href="pag02.html" rel="next"> segunda pagina </a>
+        </p>
+        <p>
+            vossa beldade tbm pode acessar nossa <a href="noticias/pag03.html" rel="next" target="_self" > pagina de noticias </a>
+        </p>
+
+    <h2> links para dowload </h2>
+    <ul>
+        <li> <a href="book/apostila_sql_1.pdf" download="apostila_sql_1.pdf"
+        type="application/pdf" > baixa o livro pdf  </a> </li>
+        <li> <a href="book/apostila_sql_1.zip" download="apostila_sql_1.zip"
+        type="application/zip">livro compactado </a> </li>
+        <!-- dowload de arquivo = dowload="caminho do arquivo" + type="formato aplication"(iana/types.com tem os formatos)-->
+    </ul>
+    
+
+    
+</body>
+</html>
