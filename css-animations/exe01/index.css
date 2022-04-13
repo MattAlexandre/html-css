@@ -1,0 +1,28 @@
+body{
+    display: grid;
+    place-items: center;
+    height: 100vhs;
+}
+
+.box{
+     outline: 5px solid cyan;
+}
+
+img{
+    /*
+    
+    translate(deslocamento) x = vertical , y = horisontal 
+    transform: translateX(200px);
+
+    altera a dimensão do elemento , x = vertical , y = horisontal
+    transform: scale(0);
+
+    rotaciona o elemento    
+    transform: rotate(0deg);
+
+    inclinação do elemento 
+    transform: skew(0deg);
+
+    add conforme necessidade do transform */
+    transform: translate() scale() rotate() /*..*/;
+}

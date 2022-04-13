@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 30px;
+        }
+        .box{
+            background-color: aqua;
+            height: 300px;
+            width: 300px;
+
+            /*qual propriedade do cssé trabalhada*/
+            transition-property: background-color , border-radius;
+
+            /*duração da transição */
+            transition-duration: 2s;
+
+            /*tempo ate a transição pos curso esta em cima*/
+            transition-delay: 0.5s;
+
+            /*delimita a duração da transição, - cmc = ease-in , final = ease-out ou */
+            transition-timing-function:  cubic-bezier(.15,.85,.85,.15);
+        }
+        .box:hover{
+            background-color: red;
+            border-radius: 50%;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+</body>
+</html>

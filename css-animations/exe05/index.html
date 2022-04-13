@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: grid;
+            font: normal bold 300% 'arial';
+            height: 100vh;
+            place-items: center;
+
+        }
+        .text-reveal{
+            overflow: hidden;
+            position: relative;
+
+            &::after{
+                animation: text-reveal 2s ease forwards;
+                background-color: #157bad;
+                content:'';
+                display:block;
+                position: absolute;
+                top:0;
+                right:0;
+                bottom:0;
+                left:0;
+            }
+        }
+
+        h1{
+            animation: fade  1ms 1s forwards ;
+            opacity: 0;
+        }
+        @keyframes text-reveal{
+            from{
+                transform:  translateX(-101%);
+            }
+            to{
+                transform: translateX(101%);
+            }
+        }
+
+        @keyframes fade{
+            to{
+                opacity: 1;
+            }
+        }
+        /*site animações https://animista.net/play/basic/rotate-scale/rotate-scale-down-ver*/
+    </style>
+</head>
+<body>
+    <div class="text-reveal">
+        <h1> paulin bacana </h1>
+    </div>
+</body>
+</html>
