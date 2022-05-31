@@ -1,0 +1,27 @@
+<html lang="pt-br">
+<head>
+<title> Desafio 1 </title>
+<meta charset="UTF-8">
+<script>
+function calcular(){
+let Numero1=tag.elements["fNumero1"].value;
+let Numero2=tag.elements["fNumero2"].value;
+let Soma=(parseFloat(Numero1)+parseFloat(Numero2))/2;
+tag.elements["fSoma"].value= Soma;
+}
+
+</script>
+</head>
+<body>
+
+<form name="Soma de números" action="#" method="post">
+<label>Numero1</label><br>
+<input type="text" name="fNumero1"><br><br>
+<label>Numero2</label><br>
+<input type="text" name="fNumero2"><br><br>
+<label>Soma</label><br>
+<input type="text" name="fSoma" disabled><br><br>
+<input type="button" value="Confirmar" onclick="calcular();">
+</form>
+</body>
+</html>

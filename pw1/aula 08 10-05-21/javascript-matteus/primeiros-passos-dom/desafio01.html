@@ -1,0 +1,27 @@
+<html lang="pt-br">
+	<head>
+		<title>Curso de Javascript</title>
+		<meta charset="UTF-8">
+		<script>
+			//Definição da Função
+			function calcular()
+			{
+				let tag=document.forms["curso"];
+				let nota1=tag.elements["num1"].value;
+				let nota2=tag.elements["num2"].value;
+				let resultado=(parseFloat(nota1)+parseFloat(nota2));
+				alert("O resultado é igual a \n"+resultado);
+			}
+		</script>	
+	</head>
+	<body>
+		
+		<form name="curso" action="#" method="post">
+			<label>Primeiro valor</label><br>
+			<input type="text" name="num1"><br><br>
+			<label>Segundo valor</label><br>
+			<input type="text" name="num2"><br><br>
+			<input type="button" value="Soma" onclick="calcular()">
+		</form>	
+	</body>
+</html>

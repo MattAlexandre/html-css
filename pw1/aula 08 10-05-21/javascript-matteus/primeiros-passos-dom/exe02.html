@@ -1,0 +1,40 @@
+<html lang="pt-br">
+
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>primeiros passos-javascript</title>
+    <meta charset="utf-8">
+    <script>
+       //definição da função
+       function titulofont(cor){
+        let titulo = document.getElementsById("titulo");
+        //muda a cor do titulo para a cor que veio como paremetro
+        titulo.style.color = cor;
+       }
+    
+      </script>   
+</head>
+<body > 
+        <!--criando um titulo h3 com o id titulo-->
+        <h3 id='titulo'>minha pagina com javascript</h3>
+        <br> font do titulo:
+        <!--criando botôes que chamem a funça~~o passando a cor desejada-->
+        <input type="button" value="vermelho" onclick="titulofont('#ff0000');">
+        <input type="button" value="verde" onclick="titulofont('greem');">
+        <input type="button" value="azul" onclick="titulofont('blue') ;">
+        <input type="button" value="rosa" onclick="titulofont('pink') ;">
+        <input type="button" value="amarelo" onclick="titulofont('yellow');">
+        <input type="button" value="preto" onclick="titulofont('#000000');">
+
+
+
+        </script>
+
+
+
+
+
+</body>
+</html>                   

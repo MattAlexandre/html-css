@@ -1,0 +1,21 @@
+ <html>
+ 
+ <head>
+    
+	    <title>minha primeira pagina</title>
+		
+		
+ </head>
+ 
+  <body style="background-color:red : color ;blue;".
+  
+         <h2> conteudo de uma pagina web <hr>
+	
+	
+	
+	
+ </body>
+ </html>  
+
+
+      

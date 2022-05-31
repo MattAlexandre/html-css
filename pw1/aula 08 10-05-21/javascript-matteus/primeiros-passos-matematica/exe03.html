@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>primeiros passos-javascript</title>
+    <meta charset="utf-8">
+    <script>
+        //declarando variavel
+       let preco,porcentagem,desconto,novopreco;
+        // obtendo dados atravez do prompt
+        preco =  pasrsefloat(prompt("por favor digite o preço do produto: "));
+        porcentagem = pasrsefloat(prompt("por favor digite a % de desconto: "));
+        //realiando os calculos
+        desconto = preco * porcentagem/100;
+        novopreco = preco - desconto ;
+        //escrevendo a informação obtida no documento 
+        document.write("o valor do desconto R$ "+desconto.tofixed(2)+"!!!<br>");
+        //o .tofixed(2) faz com o  que o valor seja corrijido para duas casas decimais 
+        document.write("o preço com o desconto de R$ "+novopreco.toFixed(2)+"!!!");
+    </script>
+   
+</head>
+
+<body >
+    
+      
+         
+</body>
+</html>

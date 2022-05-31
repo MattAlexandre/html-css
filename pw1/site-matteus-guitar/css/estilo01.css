@@ -1,0 +1,157 @@
+body{
+	background-color:grey;
+	font-family: "calibri", times, serif;
+
+
+}
+
+
+
+#container{
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+}
+
+
+
+#topo-site{
+	width: 960px;
+	height: 194;
+	float:left;
+	background-color: black;
+
+
+
+}
+
+
+
+#logo{
+	width: 300px;
+	height: 77px;
+	float:left;
+	margin-left: 40px;
+	margin-top: 40px;
+	
+}
+
+
+
+#rede-sociais{
+	width: 116px;
+	height: 50px;
+	float:right;
+	margin-right: 115px;
+	margin-top: 50px;
+	
+
+
+
+}
+
+
+
+.menu_simple{
+	width: 960px;
+	height: 40px;
+	float:left;
+	margin-top: 40px;
+	background-color: red;
+
+}
+
+.menu_simple ul{
+	 margin:0; 
+	 padding:0;
+	 float:left;
+	 
+}
+
+.menu_simple ul li{
+	display: inline;
+	 
+}
+
+.menu_simple ul li a {
+	float: left; 
+	text-decoration: none;
+	color: white;
+	padding: 10.5px 11px;
+	margin-left: 100px;
+	 
+}
+
+.menu_simple ul li a:visited{
+	color: white;
+}
+
+.menu_simple ul li a:hover, .menu_simple ul li .current{
+	color: white;
+	background-color: #206CA6;
+}
+
+
+#slide{
+	margin-top: 10px;
+	float: left;
+	
+	
+
+
+
+}
+.caixa-conteudo{
+    width: 281px;
+    height: 206px;
+	float: left;
+	margin-left: 17px;
+	padding-left: 17px;
+	margin-top: 40px;
+}	
+.caixa-conteudo h3{
+	color:white;
+	margin-left: 50px
+ }   
+.caixa-conteudo ul{
+   list-style: none;
+	float: left;
+	color: white;
+	margin-left: 10px;
+	margin-top: 10px;
+}	
+.caixa-conteudo ul li{
+	margin-top: 10px;
+}	
+.caixa-conteudo ul li{
+	margin-top: 10px;
+
+}
+.caixa-conteudo li a{
+	list-style: none;
+	color: white;
+	margin-left: 10px;
+}
+
+#rodape-site{
+    width: 960px;
+    height: 300px;
+	float: left;
+	background-color: black;
+	margin-top: 10px;
+
+}
+
+
+
+#autor-site{
+    width: 960px;
+    height: 40px;
+	background-color: red;
+	float: left;
+	text-align: center;
+	padding-top: 10px;
+	color: white
+
+}

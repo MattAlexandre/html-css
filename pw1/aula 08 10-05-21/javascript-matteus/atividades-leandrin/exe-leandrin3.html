@@ -1,0 +1,35 @@
+<html lang="pt-br">
+
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">                                                                                                              
+    <title>atividade - t.p</title>
+    <meta charset="utf-8">
+    <script>
+        // salario funcionario = valor fixo + comissão para cada carro vendido + 5% do valor da venda 
+        //var
+       let sala, quantvend, valorcomi, totalvend , comisa, porcenvend, salatotal ;
+       //browser1
+       sala = parseInt(prompt(" digite o seu salario !!!"));
+       quantvend = parseInt(prompt(" digite a quantidade de caros que o senhor vendeu esse mês !!!"));
+       totalvend = parseInt(prompt(" digite o valor total das suas vendas !!!"));
+       //cont
+       valorcomi = 120 ; // valor da comissão declarado como constante
+       comisa = quantvend * valorcomi;
+       porcenvend = ((totalvend * 5)/100);
+       salatotal = sala + comisa + porcenvend ;
+
+       //browserfinal
+       document.write(" o salario fixo do funcionario é de  "+ sala  +"!!!<br>");
+       document.write(" sua comissão é de  "+ comisa +"!!!<br>");
+       document.write(" é a porcentagem das venda dos carros é de  "+ porcenvend  +"!!!<br>");
+       document.write(" é o salario total do funcionario é de "+ salatotal  +"!!!<br>");
+      
+      
+       
+      </script>   
+</head>
+<body > 
+</body>
+</html>         

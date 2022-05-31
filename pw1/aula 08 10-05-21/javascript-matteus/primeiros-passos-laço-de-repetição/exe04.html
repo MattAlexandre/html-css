@@ -1,0 +1,26 @@
+<html lang="pt-br">
+
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>primeiros passos-javascript</title>
+    <meta charset="utf-8">
+    <script>
+        //declarando variavel
+       let total=0.0; 
+       let op=0;
+       //utilizando o while
+       do{//faça o bloco de comandos abaixo
+           op=parseFloat(prompt("digite o preço do produto ou (zero) para sair: "));
+           total=total+op;
+       } while(op!=0); //enquanto op for diferente de zero
+           document.write("o total da compra foi R$ "+total.toFixed(2));
+           //tofixed(2) arredeonda o valor para duas casas decimais . ex: 9.99
+     
+
+      </script>   
+</head>
+<body > 
+</body>
+</html>                   

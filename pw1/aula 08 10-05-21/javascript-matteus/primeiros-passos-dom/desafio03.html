@@ -1,0 +1,35 @@
+<html lang="pt-br">
+	<head>
+		<title>Curso de Javascript</title>
+		<meta charset="UTF-8">
+		<script>
+			//Definição da Função
+			function calcular()
+			{
+				let tag=document.forms["curso"].value;
+				let nome=tag.elements["fNome"].value;
+				let nota1=tag.elements["fNota1"].value;
+				let nota2=tag.elements["fNota2"].value;
+				let media=(parseFloat(nota1)+parseFloat(nota2))/2;
+				if(media>= 7)
+				{ 
+				alert("Olá " +nome+ "\nSua média foi: "+media+"\nSituação: APROVADO!");
+				}else{
+				alert("Olá " +nome+ "\nSua média foi: "+media+"\nSituação: REPROVADO!");
+				}
+			}
+		</script>	
+	</head>
+	<body>
+		<!--Criando um formulário com nome curso -->
+		<form name="curso" action="#" method="post">
+			<label>Nome</label><br>
+			<input type="text" name="fNome" value="Digite seu nome"><br><br>
+			<label>Nota1</label><br>
+			<input type="text" name="fNota1"><br><br>
+			<label>Nota2</label><br>
+			<input type="text" name="fNota2"><br><br>
+			<input type="button" value="Confirmar" onclick="calcular()">
+		</form>	
+	</body>
+</html>

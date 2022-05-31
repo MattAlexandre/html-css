@@ -1,0 +1,41 @@
+<html lang="pt-br">
+
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>primeiros passos-javascript</title>
+    <meta charset="utf-8">
+    <script>
+        // função
+        function calcular(){
+            let tag=document.forms["curso"];
+            let nome=tag.elements["fnome"].value;
+            let nota1=tag.elements["fnota1"].value;
+            let nota2=tag.elements["fnota2"].value;
+            let media=(parseFloat(nota1)+parseFloat(nota2))/2;
+            tag.elements["fmedia"].value =media;
+
+           
+       }
+       
+        </script>
+</head>
+<body>
+        <!-- Criando um paragrafo c o id texto -->
+        <form name="curso" action="#" method="POST">
+             <label>nome</label><br>
+             <input type ="text" name="fnome"><br><br>
+             <label>nota1</label><br>
+             <input type="text" name="fnota1"><br>
+             <label>nota2</label><br>
+             <input type="text" name="fnota2"><br><br>
+             <label>media</label><br>
+             <input type="text" name="fmedia" disabled><br><br>
+             <input type="button" value="confirmar" onclick="calcular();">
+        </form>
+
+
+
+</body>
+</html>                   
